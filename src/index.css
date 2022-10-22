@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.headerAndFooter {
+  background-color: #00ffcc;
+  padding: 10px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  background-color: #00ffcc;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.allButton {
+  border: solid black 1px;
+  border-radius: 10px 0 0 10px;
+}
+
+.remainingButton {
+  border: solid black 1px;
+  border-radius: 0 10px 10px 0;
+}
+
+.completedButton {
+  border: solid black 1px
+}
+
+span.completed {
+  text-decoration: line-through;
+}
+
+.todo-items {
+  margin: 20px;
+  color: wheat;
+}
+
+.todo-items button {
+  margin: 10px;
+}
+
+.App {
+  height: 100vh;
+  background: #000000e0;
+}
+
+input {
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.add-item {
+  margin: 25px;
+}
+
+.filters button {
+  min-width: 60px;
+  padding: 4px;
+  border-style: none;
+  background: #00ffcc;
+  border: 1px solid black;
+}
+
+.delete-icon {
+  position: relative;
+  top: 5px;
+  left: 10px;
+  font-size: 18px;
+  color: #00ffcc;
+  cursor: pointer;
+}
+
+.add-icon {
+  position: relative;
+  top: 5px;
+  left: 10px;
+  font-size: 18px;
+  color: #00ffcc;
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
